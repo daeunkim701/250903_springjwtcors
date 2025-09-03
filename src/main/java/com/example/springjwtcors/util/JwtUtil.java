@@ -64,5 +64,4 @@ public class JwtUtil {
                 .parseSignedClaims(token) // 토큰 파싱
                 .getPayload();
     }
-
 }
