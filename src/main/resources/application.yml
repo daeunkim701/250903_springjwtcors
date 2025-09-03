@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springjwtcors
+
+# [2] Value
+jwt:
+  secret: 1a06070e40d0e4eede36cc0a88e61260
+  expiration: 3600000 # 1시간
